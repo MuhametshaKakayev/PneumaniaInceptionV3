@@ -1,13 +1,13 @@
-Pneumonia Detection with InceptionV3 using Chest X-ray Images
+Pneumonia Detection with InceptionV3 and ResnetV2 using Chest X-ray Images
 
-Bu proje, Chest X-ray Pneumonia veri setini kullanarak InceptionV3 önceden eğitilmiş modelinden yararlanarak zatürre (pneumonia) hastalığını tespit etmeyi amaçlamaktadır.
+Bu proje, Chest X-ray Pneumonia veri setini kullanarak InceptionV3 ve ResmetV2 önceden eğitilmiş modelinden yararlanarak zatürre (pneumonia) hastalığını tespit etmeyi amaçlamaktadır.
 Proje Özeti
 
     Veri Seti: Kaggle’dan indirilen chest X-ray görüntüleri. Veri seti; NORMAL ve PNEUMONIA olmak üzere iki sınıfa ayrılmıştır.
 
     Veri İşleme: Eğitim seti dengelenmiş, ayrıca eğitim/validasyon/test olarak ayrılmıştır.
 
-    Model: Transfer öğrenme ile InceptionV3 tabanlı derin sinir ağı.
+    Model: Transfer öğrenme ile InceptionV3 ve ResnetV2 tabanlı derin sinir ağı.
 
     Eğitim: Veri artırma (augmentation) ve erken durdurma (early stopping) gibi tekniklerle model optimize edilmiştir.
 
